@@ -24,4 +24,5 @@ Windows: Will upload all your plots to Google Shared Drive (required WinFSP, rcl
 -  rclone_example.conf
 
 Usage: rclone --config=rclone_example.conf config
-Please don't change the name for the rclone profile (gdrive_chia, gdrive_service0,...) because it will break all the scripts.
+
+Don't change the name for the rclone profile (gdrive_chia, gdrive_service0,...) because it will break all the scripts.
