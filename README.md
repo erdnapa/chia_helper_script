@@ -4,13 +4,13 @@ Script to farm Chia Blockchain on Google Shared Drive
 # remote_harvester script
 -  chia_prepare.sh
 
-This will install Rclone & Chia on your VM
+Will install Python 3.7, Rclone & Chia on your Ubuntu 16.04 VM. Pretty basic stuff.
 -  chia_start.sh
 
-This will start Rclone & Chia Harvester on your VM. Rclone will cache your plots header (VFS Cache)
+Will mount Google Shared Drive with Rclone & start Chia Harvester. After Rclone finished cache your plots header (VFS Cache), will restart Chia Harvester once.
 -  chia_monitor.sh
 
-This script will loop and monitor your VFS Cache usage & Harvester status. If no space left for VFS Cache, it will clean the VFS Cache and restart Chia Harvester.
+Will loop and show VFS Cache usage & Harvester status. If no space left for VFS Cache, it will clean the VFS Cache and restart Chia Harvester.
 
 # plot_uploader script
 -  rclone_upload.sh
