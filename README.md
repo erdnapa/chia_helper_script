@@ -10,13 +10,13 @@ Will install Python 3.7, Rclone & Chia on your Ubuntu 16.04 VM. Pretty basic stu
 Will mount Google Shared Drive with Rclone & start Chia Harvester. After Rclone finished cache your plots header (VFS Cache), will restart Chia Harvester once.
 -  chia_monitor.sh
 
-Will loop and show VFS Cache usage & Harvester status. If no space left for VFS Cache, it will clean the VFS Cache and restart Chia Harvester.
+Will loop and show VFS Cache usage & Harvester status. If no space left for VFS Cache, it will clean and restart Chia Harvester.
 
 # plot_uploader script
 -  rclone_upload.sh
 
-Will upload all your plots to Google Shared Drive (required rclone.conf)
+Linux/Ubuntu: Will upload all your plots to Google Shared Drive (required rclone and rclone.conf)
 -  rclone_upload_win.bat
 
-Will upload all your plots to Google Shared Drive (required rclone.conf)
+Windows: Will upload all your plots to Google Shared Drive (required WinFSP, rclone.exe and rclone.conf)
 
